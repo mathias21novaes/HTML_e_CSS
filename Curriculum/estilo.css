@@ -1,0 +1,30 @@
+body{
+	background: #E0DCDC;
+}
+
+p{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: justify;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	background: #414445;
+	color: white;
+	border-bottom: 3px solid #777878;
+	border-left: 3px solid #777878;
+	padding-left: 15px;
+}
+
+
+.fonte{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#info{
+	list-style: none;
+	padding-left: 3px;
+}

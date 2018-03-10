@@ -1,0 +1,29 @@
+body{
+	background: gray;
+	font-family: sans-serif; 
+}
+h1{
+	color: red;
+}
+
+p{
+	color: darkred;
+}
+
+#principal{
+	color: black;
+}
+
+.hr2{
+	border: 2px solid blue;
+}
+
+hr{
+	width: 960px;
+	border: 2px solid red;
+}
+
+ul{
+	list-style: none;
+	list-style-position: 10px;
+}
