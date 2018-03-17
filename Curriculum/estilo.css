@@ -1,22 +1,117 @@
 body{
-	background: #E0DCDC;
+	background-image: url("bg_maccinza.jpeg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Oxygen', sans-serif;
 }
 
-p{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	text-align: justify;
+section{
+	background-color: #FFFFF9;
+	width: 960px;
+	padding: 0;
+	margin: auto;
 }
 
 h1{
-	text-align: center;
+	font-size: 2.7em;
+	clear: left;
+	margin: 80px 20px 0 0;
+	text-transform: uppercase;
+
+}
+
+p{
+	text-align: justify;
+	padding-left: 50px;
+}
+
+h4{
+	font-size: 1.3em;
+	margin: 15px 20px 0 0;
+	font-style: italic;
+}
+
+h1, h4, h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+dl, dd, address, p{
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+}
+
+h1, h4, img{
+	float: right;
+}
+
+img{
+	border-radius: 125px;
+	margin: 20px;
 }
 
 h2{
-	background: #414445;
+	background: #91918E;
 	color: white;
-	border-bottom: 3px solid #777878;
-	border-left: 3px solid #777878;
-	padding-left: 15px;
+	border-bottom: 4px solid #525250;
+	padding:  10px 10px 10px 40px;
+	clear: both;
+	margin: 50px 10px 10px 10px;
+}
+
+address li{
+	float: left;
+	list-style: none;
+	width: 33%;
+	padding: 10px 0 0 0px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+address ul{
+	padding: 0;
+}
+
+dt{
+	float: left;
+	width: 300px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 30px;
+}
+
+dd, dt{
+	line-height: 35px;
+}
+
+footer p{
+	/*margin: 0;
+	margin-left: 10%;
+	padding: 0;
+	float: left;
+	width: 50%;*/
+	text-align: center;
+}
+
+footer ul{
+	/*float: left;*/
+	width: 146px;
+	margin: auto;
+	/*padding: 0;*/
+}
+
+footer li{
+	list-style: none;
+	float: left;
+	font-size: 30px;
+	/*margin: 6px;*/
+}
+
+footer i{
+	font-size: 1em;
+	margin: 6px;
 }
 
 
@@ -24,7 +119,10 @@ h2{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#info{
-	list-style: none;
-	padding-left: 3px;
+#h4{
+	font-size: 1.3em;
+	margin: 0 20px 0 100px;
+	font-style: italic;
 }
+
+
