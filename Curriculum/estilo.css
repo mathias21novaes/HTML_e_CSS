@@ -1,17 +1,51 @@
 body{
-	background-image: url("bg_maccinza.jpeg");
+	background-image: url("fundo2.jpg");
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	width: 14.2%;
+	text-align: center;
+}
+nav ul li a{
+	color: #CCCCC8;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: -4px;
+	display: block;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #383837;
+	border-bottom: 4px solid #91918E;
+	border-top: 4px solid #91918E;
+	font-size: 1em;
+	margin: 0px;
+	padding: 0;
+	height: 50px;
 }
 
 section{
 	background-color: #FFFFF9;
 	width: 960px;
-	padding: 0;
-	margin: auto;
+	padding: 0 0 50px 0;
+	margin: 0px auto 50px auto;
+
 }
 
 h1{
@@ -24,7 +58,7 @@ h1{
 
 p{
 	text-align: justify;
-	padding-left: 50px;
+	padding: 0 50px 0 50px;
 }
 
 h4{
@@ -33,7 +67,7 @@ h4{
 	font-style: italic;
 }
 
-h1, h4, h2{
+h1, h4, h2, nav{
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -52,7 +86,7 @@ img{
 }
 
 h2{
-	background: #91918E;
+	background: #5E699E;
 	color: white;
 	border-bottom: 4px solid #525250;
 	padding:  10px 10px 10px 40px;
@@ -87,26 +121,18 @@ dd, dt{
 }
 
 footer p{
-	/*margin: 0;
-	margin-left: 10%;
-	padding: 0;
-	float: left;
-	width: 50%;*/
 	text-align: center;
 }
 
 footer ul{
-	/*float: left;*/
 	width: 146px;
 	margin: auto;
-	/*padding: 0;*/
 }
 
 footer li{
 	list-style: none;
 	float: left;
 	font-size: 30px;
-	/*margin: 6px;*/
 }
 
 footer i{
@@ -119,10 +145,23 @@ footer i{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.divlink{
+	height: 20px;
+}
+
 #h4{
 	font-size: 1.3em;
 	margin: 0 20px 0 100px;
 	font-style: italic;
+}
+
+#profile{
+	height: 270px; 
+	/*width:;*/
+}
+
+#comeco{
+	height: 70px;
 }
 
 
