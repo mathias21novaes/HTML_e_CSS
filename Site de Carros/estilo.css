@@ -1,15 +1,20 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
-	background-color: #EEFEFF;
+	background-color: #FFFFFF;
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
 header {
 	width: 100%;
 	height: 80px;
-	padding: 5px;
+	padding: 2.5%			/*css3 generator*/
+	padding-bottom: 0;
 	background-color: white;
+	position: fixed;
+	top: 0;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0,0,0,1);
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,1);
 }
 
 header img {
@@ -29,7 +34,9 @@ header nav ul li {
 
 section {
 	text-align: center;
+	clear: both;
 }
+
 
 hr {
 	border: 2px solid #1F4E62;
@@ -50,11 +57,21 @@ h2 {
 h3 {
 	font-size: 2.0em;
 	font-weight: 50;
+	margin-bottom: 8px;
+
 }
 
 h4 {
 	text-transform: uppercase;
 	margin-bottom: 10px;
+}
+
+footer {
+	background-color: gray;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	color: white;
 }
 
 section#carros h4 {
@@ -79,24 +96,27 @@ section#opcoes h3 {
 
 section#opcoes p {
 	font-size: .86em;
-	text-align: center;
 	font-weight: 100;
-	max-width: 640px;
-	margin: 0 auto;
+	margin: 0 auto 40px auto;
 	line-height: 28px;
+	text-align: center;
 }
+
+/* ====================== CLASSES ====================== */
 
 .linha {
 	max-width: 960px;
 	margin: auto;
+	clear: both;
 }
 .coluna {
-	width: 280px;
+	width: 300px;
 	height: 450px;
-	background-color: gray;
+	background-color: #C5E3FF;
 	float: left;
-	margin: 10px;
-	padding: 10px;
+	margin: 10px 10px 50px 10px;
+	padding: 0;
+	overflow: hidden;
 }
 
 .paragrafo_slider {
@@ -104,6 +124,13 @@ section#opcoes p {
 	margin: 30px auto;
 	color: white;
 	font-size: 1.1em;
+}
+
+#formt_paragrafo {
+	font-size: 1em !important;
+	max-width: 640px;
+	line-height: 28px;
+	margin: 10px auto 20px;
 }
 
 .botao_slider {
@@ -129,9 +156,92 @@ section#opcoes p {
 	color: #024976;
 }
 
-.negrito {
-
+.legenda {
+	background-color: /*#66BEE8*/ #70ACFF;
+	color: white;
+	width: 100%;
+	line-height: 30px;					/*can i use: site de verificação de uso de ferramentas em diversos navegadores;*/
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 0.85em;
 }
+
+.coluna2 {
+	float: left;
+	width: 42%;
+	margin: 0 4%;
+}
+
+.coluna2 span {
+	font-size: 0.8em;
+	line-height: 30px !important;
+}
+
+.coluna p {
+	text-align: justify !important;
+	padding: 0 10px 0 10px;
+	line-height: 18px !important;
+	margin: 20px 0 !important;
+}
+
+.coluna2 i {
+	margin-right: 5px;
+	color: #2B7FFF;
+}
+
+.escurecer{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.botao_anuncio {
+	float: right;
+}
+
+.linha1 {
+	max-width: 1300px;
+	margin: auto;
+}
+
+.col_servicos {
+	margin: 1.5%;
+	padding: 1%;
+	width: 20%;
+	height: 345px;
+	background-color: #C5E3FF;
+	float: left;
+}
+
+.col_servicos i {
+	font-size: 3.3em;
+	text-align: center;
+	color: #33609C;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.col_servicos p {
+	padding-top: 15px;
+	font-size: 0.9em;
+}
+
+.col_servicos a {
+	margin: 25px auto;
+	padding: 5px 5px;
+	width: 60%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #33609C;
+	display: block;
+	border: 2px solid #33609C;
+	text-decoration: none;	
+}
+
+/* ====================== ID's ====================== */
 
 #slide1 {
 	width: 100%;
@@ -140,4 +250,110 @@ section#opcoes p {
 	background-image: url("cars/car3.jpg");
 	background-position: center center;
 	background-size: cover;
+	margin-top: 80px;
+}
+
+#carro1, #carro2, #carro3 {
+	width: 100%;
+	height: 180px;
+	background-position: center center;
+	background-size: cover;
+}
+
+#carro1 {
+	background-image: url("imgs/carros/car2.jpeg");
+}
+
+#carro2 {
+	background-image: url("imgs/carros/car6.jpeg");
+}
+
+#carro3 {
+	background-image: url("imgs/carros/car1.jpeg");
+}
+
+#paralax {
+	clear: both;
+	width: 100%;
+	height: 300px;
+	background-image: url("imgs/velocimetro.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#paralax h3 {
+	color: white;
+	font-size: 1.7em;
+	float: left;
+	padding-left: 200px;
+	margin: 0;
+	line-height: 300px;
+}
+
+#paralax a {
+	float: right;
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	display: block;
+	margin-top: 120px;
+	margin-right: 250px;
+	border: 2px solid white;
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#mapasite {
+	background-image: url("imgs/carros/car4.jpeg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+}
+
+#mapasite .col_servicos {
+	background-color: unset;
+	color: white;
+	width: 20%;
+}
+
+.rodape {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#mapasite li {
+	list-style: none;
+	text-align: left;
+}
+
+#mapasite ul {
+	padding: 0;
+}
+
+#mapasite h4 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #0DB2FF;
+}
+
+#mapasite hr {
+	margin: 10px 0 10px 0;
+}
+
+#formatacao {
+	line-height: 65px;
+}
+
+#mapasite p {
+	padding-top: 20px;
+}
+
+#mapasite figure {
+	margin-bottom: 0;
 }
