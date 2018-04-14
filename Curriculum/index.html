@@ -6,6 +6,7 @@
 
 		<title>Curriculo</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link href="https://fonts.googleapis.com/css?family=Cabin|Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
@@ -15,15 +16,30 @@
 	<body>
 
 		<nav>
-			<ul>
-				<li><a href="#comeco">PERFIL</a></li>
-				<li><a href="#objetivo">OBJETIVOS</a></li>
-				<li><a href="#habilidades">HABILIDADES</a></li>
-				<li><a href="#experiencia">EXPERIÊNCIAS</a></li>
-				<li><a href="#educacao">EDUCAÇÃO</a></li>
-				<li><a href="#comunicacao">COMUNICAÇÃO</a></li>
-				<li><a href="#referencias">REFERÊNCIAS</a></li>
-			</ul>
+			<div id="menu_grande">
+				<ul>
+					<li><a href="#comeco">PERFIL</a></li>
+					<li><a href="#objetivo">OBJETIVOS</a></li>
+					<li><a href="#habilidades">HABILIDADES</a></li>
+					<li><a href="#experiencia">EXPERIÊNCIAS</a></li>
+					<li><a href="#educacao">EDUCAÇÃO</a></li>
+					<li><a href="#comunicacao">COMUNICAÇÃO</a></li>
+					<li><a href="#referencias">REFERÊNCIAS</a></li>
+				</ul>
+			</div>
+
+			<div id="menu_pequeno">
+				<i class="fas fa-bars"></i>
+				<ul>
+					<li><a href="#comeco">PERFIL</a></li>
+					<li><a href="#objetivo">OBJETIVOS</a></li>
+					<li><a href="#habilidades">HABILIDADES</a></li>
+					<li><a href="#experiencia">EXPERIÊNCIAS</a></li>
+					<li><a href="#educacao">EDUCAÇÃO</a></li>
+					<li><a href="#comunicacao">COMUNICAÇÃO</a></li>
+					<li><a href="#referencias">REFERÊNCIAS</a></li>
+				</ul>
+			</div>
 		</nav>
 
 		<div id="comeco"></div>
@@ -39,19 +55,23 @@
 
 
 			<div class="divlink" id="profile">
-
-				<img src="photo.jpg">
-				
-				<h1>Matheus Novaes Teixeira</h1>
-				<h4>Senac São Paulo - Santo Amaro</h4>
-				<h4 id ="h4">Ciência da Computação</h4>
-
+				<div class="coluna">
+					<img src="photo.jpg">
+				</div>
+				<div class="coluna">
+					<h1>Matheus Novaes Teixeira</h1>
+					<h4>Senac São Paulo - Santo Amaro</h4>
+					<h4>Ciência da Computação</h4>
+				</div>
+				<div class="coluna">
+					<img src="photo.jpg">
+				</div>
 			</div>
 
 
 
 			<div class="divlink" id="objetivo"></div>
-			<h2>OBJETIVO</h2>
+			<h2 id="espaco">OBJETIVO</h2>
 			<p>Ingressar em uma grande empresa conceituável em tecnologia, aplicar conhecimentos de programação,
 			desenvolvimento de softwares e sistemas, como também criação de Websites com foco em FrontEnd.</p>
 

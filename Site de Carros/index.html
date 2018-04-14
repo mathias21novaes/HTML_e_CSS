@@ -5,6 +5,10 @@
 		
 		<title>Locação de Carros</title>
 		<meta charset="utf-8">
+		<meta name="description" content="A descrição do seu site">
+		<meta name="keywords" content="Coisas, separadas, por virgula, aqui">
+		<meta name="author" content="Matheus Novaes">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
@@ -42,8 +46,34 @@
 			<h3><span>Welcome to our</span> <b class="azul">collection cars <i class="fas fa-car"></i></b></h3>
 			<h4>Take our best car</h4>
 
-			<div>
-				FORMULARIO
+			<div id="div_formulario">
+				<form method="post" name="formulario" id="format_form">
+					<p>Mande seu Orçamento</p>
+
+					<div class="coluna_form">
+					
+							<input type="text" name="nome" placeholder="Insira seu nome aqui" id="form_nome">
+
+							<input type="tel" name="telefone" placeholder="Insira seu telefone com DDD" id="form_telefone">
+
+							<input type="text" name="cidade" placeholder="Insira sua cidade aqui" id="form_cidade">
+					
+							<input type="email" name="email" placeholder="Insira seu email" id="form_email">
+						
+					</div>
+
+					<div class="coluna_form">
+						
+						<textarea rows="10" cols="40" id="form_msg">
+							
+						</textarea>
+						
+
+							<input type="submit" name="enviar" value="SUBMIT">
+						
+					</div>
+
+				</form>
 			</div>
 
 			<hr>
